@@ -1,0 +1,1 @@
+EXEC master ..xp_cmdshell 'bcp "SELECT ds_xml FROM G8BD_HOMOLOGACAO_DFE.dbo.nfes WHERE seq_nfes = 427" queryout "d:\teste2\exp.xml" -T -c'
